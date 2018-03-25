@@ -55,4 +55,20 @@ chmod 0600 ~/.ssh/authorized_keys
 
 --- other options like local, yarn are available.
 
+
+6. Format namemode
+
+hdfs namenode -format
+
+7. Now, we should start distributed file system and yarn:
+
+start-dfs.sh
+start-yarn.sh
+After starting both, check the results with:
+
+jps
+
+8. Write Java Main, reduce and map code and execute the code. You need to create a java artifact before executing.
+
+9. Track your program and get the correct results.
  
